@@ -1,0 +1,47 @@
+.beans-info3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 800px;
+    height: 355px;
+}
+
+.beans3-img img {
+    width: 355px;
+    height: 392px;
+}
+
+.beans-text {
+    width: 360px;
+    position: relative;
+
+
+}
+
+.beans-descr {
+    position: relative;
+    text-align: left;
+}
+
+.beans-country {
+    font-family: merienda;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.beans-product-info {
+    max-width: 420px;
+    font-family: merienda;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.beans-price {
+    font-family: merienda;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 25px;
+}

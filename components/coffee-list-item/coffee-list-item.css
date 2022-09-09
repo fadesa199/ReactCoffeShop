@@ -1,0 +1,45 @@
+.coffee-img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.coffee-block {
+    width: 220px;
+    height: 240px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 8px;
+    padding-top: 22px;
+    box-shadow: 10px 5px 5px grey;
+    cursor: pointer;
+}
+
+.coffee-name {
+    position: relative;
+    text-align: center;
+    font-family: merienda;
+    font-size: 14px;
+    font-weight: 400;
+    top: 10px;
+
+}
+
+.coffee-country {
+    position: relative;
+    text-align: center;
+    font-family: merienda;
+    font-size: 14px;
+    font-weight: 400;
+    top: 15px;
+    right: -64px;
+}
+
+.coffee-price {
+    top: 10px;
+    position: relative;
+    font-family: merienda;
+    font-weight: 700;
+    font-size: 14px;
+    top: 20px;
+    right: -64px;
+}

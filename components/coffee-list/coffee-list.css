@@ -1,0 +1,12 @@
+.beans-shop-container {
+    padding-top: 61px;
+    width: 850px;
+    min-height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: -60px;
+
+}

@@ -1,0 +1,139 @@
+.page-two-header {
+    height: 260px;
+    width: 1440px;
+    padding-bottom: 30px;
+
+}
+
+.page-two-header h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    font-family: merienda;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.link-bar {
+    margin-left: 149px;
+    padding-top: 30px;
+
+}
+
+.link-bar a {
+    margin-right: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    font-family: merienda;
+}
+
+.beans-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 710px;
+    height: 355px;
+}
+
+.beans-text {
+    width: 346px;
+    text-align: center;
+}
+
+.beans-text h2 {
+    margin-bottom: 20px;
+    font-family: merienda;
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.beans-text span {
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: black;
+}
+
+.beans-text img {
+    margin: 0 25px;
+}
+
+.beans-text p {
+    margin-top: 25px;
+    font-family: merienda;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.divider {
+    width: 240px;
+    height: 1px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.beans-search-panel {
+    display: flex;
+    width: 284px;
+    height: 30px;
+}
+
+.beans-search-panel-text {
+    font-family: merienda;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 19px;
+    align-self: center;
+}
+
+.beans-search-panel input {
+    width: 180px;
+    height: 30px;
+    font-family: merienda;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.beans-nav-bar {
+    display: flex;
+    margin: 0 auto;
+    width: 710px;
+    margin-top: 61px;
+    justify-content: space-between;
+}
+
+.beans-filter-panel {
+    display: flex;
+    width: 326px;
+    height: 30px;
+    align-items: center;
+
+}
+
+.beans-filter-panel-text {
+    align-self: center;
+    font-family: merienda;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 32px;
+}
+
+.btn-group button {
+    font-family: merienda;
+    font-size: 14px;
+    font-weight: 400;
+    width: 75px;
+    height: 30px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

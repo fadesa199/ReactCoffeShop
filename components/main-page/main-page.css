@@ -1,0 +1,161 @@
+.main-page-header {
+    height: 640px;
+    width: 1440px;
+    padding-bottom: 30px;
+}
+
+.link-bar {
+    margin-left: 149px;
+    padding-top: 30px;
+
+}
+
+.link-bar a {
+    margin-right: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    font-family: merienda;
+}
+
+.container {
+    margin-top: 111px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    font-family: merienda;
+}
+
+.container h2 {
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    font-family: merienda;
+    line-height: 40px;
+
+}
+
+.container span {
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: white;
+}
+
+.container img {
+    margin: 0 25px;
+
+}
+
+.container button {
+    margin-top: 18px;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #FFFFFF;
+    color: white;
+    font-size: 14px;
+    font-family: merienda;
+    font-weight: 700;
+    background: rgba(28, 28, 28, 0)
+}
+
+.about-us {
+    width: 1440px;
+    height: 520px;
+    text-align: center;
+    font-size: 24px;
+    font-family: merienda;
+    font-weight: 400;
+
+}
+
+.about-us h2 {
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+
+.about-us span {
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: black;
+}
+
+.about-us img {
+    margin: 0 25px;
+
+}
+
+.about-us p {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 589px;
+    font-size: 14px;
+    font-family: merienda;
+    font-weight: 400;
+    text-align: center;
+}
+
+.our-best {
+    width: 1440px;
+    height: 495px;
+}
+
+.our-best h2 {
+    padding-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: merienda;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.coffee-container {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+
+
+.coffee-img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.coffee-block {
+    width: 220px;
+    height: 240px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 8px;
+    padding-top: 22px;
+}
+
+.coffee-name {
+    position: relative;
+    text-align: center;
+    font-family: merienda;
+    font-size: 14px;
+    font-weight: 400;
+    top: 10px;
+}
+
+.coffee-price {
+    top: 10px;
+    position: relative;
+    font-family: merienda;
+    font-weight: 700;
+    font-size: 14px;
+    right: -64px;
+}
