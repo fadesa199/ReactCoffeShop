@@ -64,10 +64,6 @@ class App extends Component {
     render() {
         const { data, term, filter, dataPreview } = this.state;
         const visibleData = this.filterPost(this.searchEmp(data, term), filter);
-        const dataProp = data[dataPreview - 1];
-        console.log(dataPreview)
-        console.log(data[dataPreview])
-        console.log(dataProp)
 
         return (
             <div className='app' >
@@ -82,7 +78,7 @@ class App extends Component {
                     />
                     <CoffeeFooter />
                 </div>
-                <PageThree data={dataProp} />
+                <PageThree data={data[dataPreview - 1]} />
                 <div className='page4'>
                     <PageFour />
                     <CoffeeList data={visibleData} />
