@@ -24,7 +24,7 @@ class App extends Component {
             ],
             term: '',
             filter: 'all',
-            dataPreview: ''
+            dataPreview: 1
         }
     }
 
@@ -64,7 +64,10 @@ class App extends Component {
     render() {
         const { data, term, filter, dataPreview } = this.state;
         const visibleData = this.filterPost(this.searchEmp(data, term), filter);
-        console.log(data[1])
+        const dataProp = data[dataPreview - 1];
+        console.log(dataPreview)
+        console.log(data[dataPreview])
+        console.log(dataProp)
 
         return (
             <div className='app' >
@@ -79,9 +82,7 @@ class App extends Component {
                     />
                     <CoffeeFooter />
                 </div>
-                <PageThree data={data[1]}
-                // data={data[dataPreview-1]}  ХОЧУ РЕАЛИЗОВАТЬ ТАК
-                />
+                <PageThree data={dataProp} />
                 <div className='page4'>
                     <PageFour />
                     <CoffeeList data={visibleData} />
