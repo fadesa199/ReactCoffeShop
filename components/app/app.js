@@ -79,7 +79,9 @@ class App extends Component {
                     />
                     <CoffeeFooter />
                 </div>
-                <PageThree data={data[1]} />
+                <PageThree data={data[1]}
+                // data={data[dataPreview-1]}  ХОЧУ РЕАЛИЗОВАТЬ ТАК
+                />
                 <div className='page4'>
                     <PageFour />
                     <CoffeeList data={visibleData} />
