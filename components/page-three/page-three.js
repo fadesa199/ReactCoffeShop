@@ -5,8 +5,8 @@ import beans3 from '../main-page/img/beans3.png';
 import productlarge from '../main-page/img/product-large.jpg';
 import CoffeeFooter from '../coffee-footer/coffee-footer';
 
-const PageThree = (props) => {
-    const { country, value } = props;
+const PageThree = ({ data }) => {
+    const { country, value } = data;
     return (
         <div>
             <section className='page-two-header' style={{ backgroundImage: `url(${background})` }}>
@@ -29,9 +29,9 @@ const PageThree = (props) => {
                         <img src={beans3} alt="logo2" />
                         <span></span>
                         <div className='beans-descr'>
-                            <div className='beans-country'><strong>Country:{country}</strong></div>
+                            <div className='beans-country'><strong>Country:</strong>{country}</div>
                             <div className='beans-product-info'> <strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, quis. Exercitationem possimus quod adipisci libero voluptatem accusamus eius error quisquam, et eveniet beatae quia earum ratione aspernatur illo cupiditate tenetur?</div>
-                            <div className='beans-price'><strong>Price:{value}</strong></div>
+                            <div className='beans-price'><strong>Price:</strong>{value}</div>
                         </div>
                     </div>
                 </div>

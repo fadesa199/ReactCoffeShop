@@ -64,6 +64,7 @@ class App extends Component {
     render() {
         const { data, term, filter, dataPreview } = this.state;
         const visibleData = this.filterPost(this.searchEmp(data, term), filter);
+        console.log(data[1])
 
         return (
             <div className='app' >
@@ -78,7 +79,7 @@ class App extends Component {
                     />
                     <CoffeeFooter />
                 </div>
-                <PageThree onDataPreview={data[dataPreview - 1]} />
+                <PageThree data={data[1]} />
                 <div className='page4'>
                     <PageFour />
                     <CoffeeList data={visibleData} />
